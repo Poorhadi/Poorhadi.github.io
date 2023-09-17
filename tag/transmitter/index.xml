@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transmitter | Home</title>
+    <link>https://example.com/tag/transmitter/</link>
+      <atom:link href="https://example.com/tag/transmitter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Transmitter</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hud9e2f43ab6f21cec988f7b26ad197544_2176_512x512_fill_lanczos_center_3.png</url>
+      <title>Transmitter</title>
+      <link>https://example.com/tag/transmitter/</link>
+    </image>
+    
+    <item>
+      <title>Model checking of a device driver of a transmitter</title>
+      <link>https://example.com/project/project/model-checking-of-a-device-driver-of-a-transmitter/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/project/model-checking-of-a-device-driver-of-a-transmitter/</guid>
+      <description>&lt;p&gt;This project was a part of formal methods course at KTH. We
+Make models in NuSMV of a transmitter and the device driver control
+ling the transmitter. We then express some properties in CTL and check whether the NuSMV model satisfies them. One example of such a check is to verify that the device
+driver does not configure the transmitter into an unknown state where
+the behavior of the transmitter is not specified. If the transmitter
+enters such a state, it could do anything, e.g. transmitting confidential
+data in memory. We check more than 10 properties in this project.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

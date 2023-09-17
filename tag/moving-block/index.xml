@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moving block | Home</title>
+    <link>https://example.com/tag/moving-block/</link>
+      <atom:link href="https://example.com/tag/moving-block/index.xml" rel="self" type="application/rss+xml" />
+    <description>Moving block</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hud9e2f43ab6f21cec988f7b26ad197544_2176_512x512_fill_lanczos_center_3.png</url>
+      <title>Moving block</title>
+      <link>https://example.com/tag/moving-block/</link>
+    </image>
+    
+    <item>
+      <title>Formal modeling of moving block signaling system</title>
+      <link>https://example.com/project/project/formal-modeling-of-moving-block-signaling-system/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/project/formal-modeling-of-moving-block-signaling-system/</guid>
+      <description>&lt;p&gt;ERTMS/ETCS is a railway signaling system that aims to unify signaling systems across European countries to improve the safety and capacity of railway domains.&lt;/p&gt;
+&lt;p&gt;To facilitate the deployment, ERTMS/ETCS is designed into 3 levels. The Moving Block signaling system is a variant of ERTM/ETCS level 3 that uses as few trackside components as possible and relies on direct communication between Trains and a trackside safety unit called RBC.&lt;/p&gt;
+&lt;p&gt;In this project, we aim to check if networked attacks over the communication channel between RBC and a train can result in unintended train movement. To do so, we provide a model of the system using SysML diagrams and then translate the model automatically into an Event-B model. Then we specify an unintended train movement as a logical expression and prove its negation as an invariant of the Event-B model.&lt;/p&gt;
+&lt;p&gt;The result of the analysis shows that if the variables are defined properly in the Moving Block requirements specification, then networked attacks do not have safety implication.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

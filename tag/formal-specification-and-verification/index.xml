@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Formal specification and verification | Home</title>
+    <link>https://example.com/tag/formal-specification-and-verification/</link>
+      <atom:link href="https://example.com/tag/formal-specification-and-verification/index.xml" rel="self" type="application/rss+xml" />
+    <description>Formal specification and verification</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hud9e2f43ab6f21cec988f7b26ad197544_2176_512x512_fill_lanczos_center_3.png</url>
+      <title>Formal specification and verification</title>
+      <link>https://example.com/tag/formal-specification-and-verification/</link>
+    </image>
+    
+    <item>
+      <title>Analysing the Impact of Security Attacks on Safety Using SysML and Event-B</title>
+      <link>https://example.com/publication/analysing-the-impact-of-security-attacks-on-safety-using-sysml-and-event-b/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/analysing-the-impact-of-security-attacks-on-safety-using-sysml-and-event-b/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

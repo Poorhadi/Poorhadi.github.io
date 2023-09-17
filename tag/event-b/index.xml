@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event-B | Home</title>
+    <link>https://example.com/tag/event-b/</link>
+      <atom:link href="https://example.com/tag/event-b/index.xml" rel="self" type="application/rss+xml" />
+    <description>Event-B</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Oct 2023 11:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hud9e2f43ab6f21cec988f7b26ad197544_2176_512x512_fill_lanczos_center_3.png</url>
+      <title>Event-B</title>
+      <link>https://example.com/tag/event-b/</link>
+    </image>
+    
+    <item>
+      <title>Automating an Analysis of Safety-Security Interactions for Railway Systems</title>
+      <link>https://example.com/talk/automating-an-analysis-of-safety-security-interactions-for-railway-systems/</link>
+      <pubDate>Wed, 11 Oct 2023 11:30:00 +0000</pubDate>
+      <guid>https://example.com/talk/automating-an-analysis-of-safety-security-interactions-for-railway-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formal modeling of moving block signaling system</title>
+      <link>https://example.com/project/project/formal-modeling-of-moving-block-signaling-system/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/project/formal-modeling-of-moving-block-signaling-system/</guid>
+      <description>&lt;p&gt;ERTMS/ETCS is a railway signaling system that aims to unify signaling systems across European countries to improve the safety and capacity of railway domains.&lt;/p&gt;
+&lt;p&gt;To facilitate the deployment, ERTMS/ETCS is designed into 3 levels. The Moving Block signaling system is a variant of ERTM/ETCS level 3 that uses as few trackside components as possible and relies on direct communication between Trains and a trackside safety unit called RBC.&lt;/p&gt;
+&lt;p&gt;In this project, we aim to check if networked attacks over the communication channel between RBC and a train can result in unintended train movement. To do so, we provide a model of the system using SysML diagrams and then translate the model automatically into an Event-B model. Then we specify an unintended train movement as a logical expression and prove its negation as an invariant of the Event-B model.&lt;/p&gt;
+&lt;p&gt;The result of the analysis shows that if the variables are defined properly in the Moving Block requirements specification, then networked attacks do not have safety implication.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EBSysMLSec</title>
+      <link>https://example.com/project/project/ebsysmlsec/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/project/ebsysmlsec/</guid>
+      <description>&lt;p&gt;EBSysMLSec is a translation tool that takes a SysML model as an input and generates the corresponding Event-B model. The tool is used only in the context of networked control system (NCS) i.e., the input must agree with a specifc style of modeling adopted for specifing a NCS using SysML, details could be found in papers [1,2].&lt;/p&gt;
+&lt;p&gt;To develope EBSysMLSec, we use ATL- a model transformation language. ATL provides a way to genrate several target models from a sorce model. An ATL transformation program consists of several rules that specify how source model elements are matched with target model elements. The implemenation of EBSysMLSec contains four programs (.atl files). Each program takes the input SysML model and generates an Event-B component (either a Machine or a Context). All generated Event-B components form the output of EBSysMLSec.&lt;/p&gt;
+&lt;p&gt;Run:&lt;/p&gt;
+&lt;p&gt;Install Eclipse modeling tool.
+Install ATL plugin.
+Create an Atl project
+For each program, create an atl file. Creating the file, choose UML ecore as an input metamodel and eventbcore as an output metamodel. UML metamodel exists as a registered package, but eventbcore need to be downloaded from &lt;a href=&#34;https://sourceforge.net/projects/rodin-b-sharp/files/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sourceforge.net/projects/rodin-b-sharp/files/&lt;/a&gt;.
+For each program, configure a run and specify the input SysMl model and an directory for the generated .xmb model. An example of input model is provided in the repository (MovingBlockSysml).
+Run the configurations and open the generated files with rose editor in Rodin.
+Specify the refinemnt chain.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Formal modelling of the impact of cyber attacks on railway safety</title>
+      <link>https://example.com/publication/formal-modelling-of-the-impact-of-cyber-attacks-on-railway-safety/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/formal-modelling-of-the-impact-of-cyber-attacks-on-railway-safety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formalising the impact of security attacks on IoT safety</title>
+      <link>https://example.com/publication/formalising-the-impact-of-security-attacks-on-iot-safety/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/formalising-the-impact-of-security-attacks-on-iot-safety/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

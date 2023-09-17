@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Annotation | Home</title>
+    <link>https://example.com/tag/code-annotation/</link>
+      <atom:link href="https://example.com/tag/code-annotation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Code Annotation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hud9e2f43ab6f21cec988f7b26ad197544_2176_512x512_fill_lanczos_center_3.png</url>
+      <title>Code Annotation</title>
+      <link>https://example.com/tag/code-annotation/</link>
+    </image>
+    
+    <item>
+      <title>Deductive verification of an ABS controller</title>
+      <link>https://example.com/project/project/deductive-verification-of-an-abs-controller/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/project/deductive-verification-of-an-abs-controller/</guid>
+      <description>&lt;p&gt;This project was a part of formal methods course at KTH.&lt;br&gt;
+We use the WP plugin of Frama-C to formally verify a C
+program controlling an anti-lock braking system (ABS) of a car. In this project, the Description of the system functionality and the implemenation of the system in C have been given. As a required task, we formally specify several (safety and liveness) properties and verify them using Frama-C. To do so, we analyze the algorithms and the code to annotate the program and write contracts for each implemented function using ACSL.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

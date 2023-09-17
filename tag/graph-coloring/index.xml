@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graph Coloring | Home</title>
+    <link>https://example.com/tag/graph-coloring/</link>
+      <atom:link href="https://example.com/tag/graph-coloring/index.xml" rel="self" type="application/rss+xml" />
+    <description>Graph Coloring</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hud9e2f43ab6f21cec988f7b26ad197544_2176_512x512_fill_lanczos_center_3.png</url>
+      <title>Graph Coloring</title>
+      <link>https://example.com/tag/graph-coloring/</link>
+    </image>
+    
+    <item>
+      <title>RBC ID block assignment</title>
+      <link>https://example.com/project/project/rbc-id-block-assignment/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/project/rbc-id-block-assignment/</guid>
+      <description>&lt;p&gt;The RBC is a device used at ERTMS/ETCS signaling systems acting as a safety unit, which, using radio connection via GSM-R, to communicate with trains in a specifc area. RBCs within a region are netweoked and exchanged data to control the trains movement.&lt;/p&gt;
+&lt;p&gt;Trafikverket, Swedish Transport Administration, requires reassign (or assgining new) ID block of some of their RBCs such that no adjecent RBCs have identical IDs while minimizing the cost.&lt;/p&gt;
+&lt;p&gt;In this project, we formulate the problem as a variant of Graph coloring problem and develop an algorithm to generete the optimal ID block assignment to RBCs. The algorithm is developed in Python uisng Networkx. The implementation takes the current RBC network as an XML file and generate a graph of RBC with new assignments in GraphML format.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
