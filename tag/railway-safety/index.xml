@@ -17,10 +17,32 @@
       <link>https://example.com/project/project/formal-modeling-of-moving-block-signaling-system/</link>
       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/project/formal-modeling-of-moving-block-signaling-system/</guid>
-      <description>&lt;p&gt;ERTMS/ETCS is a railway signaling system that aims to unify signaling systems across European countries to improve the safety and capacity of railway domains.&lt;/p&gt;
-&lt;p&gt;To facilitate the deployment, ERTMS/ETCS is designed into 3 levels. The Moving Block signaling system is a variant of ERTM/ETCS level 3 that uses as few trackside components as possible and relies on direct communication between Trains and a trackside safety unit called RBC.&lt;/p&gt;
-&lt;p&gt;In this project, we aim to check if networked attacks over the communication channel between RBC and a train can result in unintended train movement. To do so, we provide a model of the system using SysML diagrams and then translate the model automatically into an Event-B model. Then we specify an unintended train movement as a logical expression and prove its negation as an invariant of the Event-B model.&lt;/p&gt;
-&lt;p&gt;The result of the analysis shows that if the variables are defined properly in the Moving Block requirements specification, then networked attacks do not have safety implication.&lt;/p&gt;
+      <description>&lt;p&gt;A subsystem of the ERTMS/ETCS Level 3 moving block architecture
+is a typical example of a NCS. The system aims at controlling trains’
+movement by using as few trackside devices as possible and relying on direct
+communication with trains. Radio-block centers (RBC) are deployed to deliver
+signals to trains and receive feedback. Each RBC controls the movement of the
+trains along a certain area by either authorizing them to move at a certain speed
+or stopping them. RBC sends to a train, passing through its area, a movement
+authority – a message containing among others danger point and end of the
+movement authority (EoA). A train is not allowed to pass its EoA to avoid hazardous
+situations. However, depending on the implementation, a safety margin
+might define a danger point to be beyond EoA. Therefore, the safety property
+usually is defined in terms of not passing the danger point, although, according
+to the definition, the train must not pass its EoA. In this project, we
+prove the safety property while the communication channel between the train
+and RBC is under attack.&lt;/p&gt;
+&lt;p&gt;We consider an attacker who performs a two-phase attack. First, she injects
+a valid movement authority message to set the value of EoA beyond the danger
+point defined by RBC. Such an attack constitutes a direct safety hazard since
+the EOA set by the attacker could be at the rear end of another train.
+Therefore, the train accepts the forged message. In the second phase, the attacker
+actively monitors train-RBC communication and takes some actions e.g.,
+dropping a message to prevent the detection of the attack and stopping the train
+before passing the intended EoA.&lt;/p&gt;
+&lt;p&gt;We model and analyze the communication between RBC and
+the train to derive necessary and sufficient conditions that
+guarantee safety in the presence of the attacker.&lt;/p&gt;
 </description>
     </item>
     

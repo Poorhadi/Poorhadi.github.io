@@ -25,10 +25,32 @@
       <link>https://example.com/project/project/formal-modeling-of-moving-block-signaling-system/</link>
       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/project/formal-modeling-of-moving-block-signaling-system/</guid>
-      <description>&lt;p&gt;ERTMS/ETCS is a railway signaling system that aims to unify signaling systems across European countries to improve the safety and capacity of railway domains.&lt;/p&gt;
-&lt;p&gt;To facilitate the deployment, ERTMS/ETCS is designed into 3 levels. The Moving Block signaling system is a variant of ERTM/ETCS level 3 that uses as few trackside components as possible and relies on direct communication between Trains and a trackside safety unit called RBC.&lt;/p&gt;
-&lt;p&gt;In this project, we aim to check if networked attacks over the communication channel between RBC and a train can result in unintended train movement. To do so, we provide a model of the system using SysML diagrams and then translate the model automatically into an Event-B model. Then we specify an unintended train movement as a logical expression and prove its negation as an invariant of the Event-B model.&lt;/p&gt;
-&lt;p&gt;The result of the analysis shows that if the variables are defined properly in the Moving Block requirements specification, then networked attacks do not have safety implication.&lt;/p&gt;
+      <description>&lt;p&gt;A subsystem of the ERTMS/ETCS Level 3 moving block architecture
+is a typical example of a NCS. The system aims at controlling trains’
+movement by using as few trackside devices as possible and relying on direct
+communication with trains. Radio-block centers (RBC) are deployed to deliver
+signals to trains and receive feedback. Each RBC controls the movement of the
+trains along a certain area by either authorizing them to move at a certain speed
+or stopping them. RBC sends to a train, passing through its area, a movement
+authority – a message containing among others danger point and end of the
+movement authority (EoA). A train is not allowed to pass its EoA to avoid hazardous
+situations. However, depending on the implementation, a safety margin
+might define a danger point to be beyond EoA. Therefore, the safety property
+usually is defined in terms of not passing the danger point, although, according
+to the definition, the train must not pass its EoA. In this project, we
+prove the safety property while the communication channel between the train
+and RBC is under attack.&lt;/p&gt;
+&lt;p&gt;We consider an attacker who performs a two-phase attack. First, she injects
+a valid movement authority message to set the value of EoA beyond the danger
+point defined by RBC. Such an attack constitutes a direct safety hazard since
+the EOA set by the attacker could be at the rear end of another train.
+Therefore, the train accepts the forged message. In the second phase, the attacker
+actively monitors train-RBC communication and takes some actions e.g.,
+dropping a message to prevent the detection of the attack and stopping the train
+before passing the intended EoA.&lt;/p&gt;
+&lt;p&gt;We model and analyze the communication between RBC and
+the train to derive necessary and sufficient conditions that
+guarantee safety in the presence of the attacker.&lt;/p&gt;
 </description>
     </item>
     
@@ -37,7 +59,7 @@
       <link>https://example.com/project/project/ebsysmlsec/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/project/ebsysmlsec/</guid>
-      <description>&lt;p&gt;EBSysMLSec is a translation tool that takes a SysML model as an input and generates the corresponding Event-B model. The tool is used only in the context of networked control system (NCS) i.e., the input must agree with a specifc style of modeling adopted for specifing a NCS using SysML, details could be found in papers [1,2].&lt;/p&gt;
+      <description>&lt;p&gt;EBSysMLSec is a translation tool that takes a SysML model as an input and generates the corresponding Event-B model. EBSysMLSec is used only in the context of networked control system (NCS) i.e., the input must agree with a specifc style of modeling adopted for specifing a NCS using SysML, details could be found in papers [1,2].&lt;/p&gt;
 &lt;p&gt;To develope EBSysMLSec, we use ATL- a model transformation language. ATL provides a way to genrate several target models from a sorce model. An ATL transformation program consists of several rules that specify how source model elements are matched with target model elements. The implemenation of EBSysMLSec contains four programs (.atl files). Each program takes the input SysML model and generates an Event-B component (either a Machine or a Context). All generated Event-B components form the output of EBSysMLSec.&lt;/p&gt;
 &lt;p&gt;Run:&lt;/p&gt;
 &lt;p&gt;Install Eclipse modeling tool.
@@ -63,9 +85,9 @@ Specify the refinemnt chain.&lt;/p&gt;
       <link>https://example.com/project/project/rbc-id-block-assignment/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/project/rbc-id-block-assignment/</guid>
-      <description>&lt;p&gt;The RBC is a device used at ERTMS/ETCS signaling systems acting as a safety unit, which, using radio connection via GSM-R, to communicate with trains in a specifc area. RBCs within a region are netweoked and exchanged data to control the trains movement.&lt;/p&gt;
-&lt;p&gt;Trafikverket, Swedish Transport Administration, requires reassign (or assgining new) ID block of some of their RBCs such that no adjecent RBCs have identical IDs while minimizing the cost.&lt;/p&gt;
-&lt;p&gt;In this project, we formulate the problem as a variant of Graph coloring problem and develop an algorithm to generete the optimal ID block assignment to RBCs. The algorithm is developed in Python uisng Networkx. The implementation takes the current RBC network as an XML file and generate a graph of RBC with new assignments in GraphML format.&lt;/p&gt;
+      <description>&lt;p&gt;The RBC is a device used at ERTMS/ETCS signaling systems acting as a safety unit, which, using radio connection via GSM-R, to communicate with trains in a specific area. RBCs within a region are networked and exchange data to control the trains&amp;rsquo; movement.&lt;/p&gt;
+&lt;p&gt;Trafikverket, Swedish Transport Administration, requires to reassign (or assign new) ID blocks of some of their RBCs such that no adjacent RBCs have identical IDs while minimizing the cost.&lt;/p&gt;
+&lt;p&gt;In this project, we formulate the problem as a variant of the Graph coloring problem and develop an algorithm to generate the optimal ID block assignment to RBCs. The algorithm is developed in Python using Networkx. The implementation takes the current RBC network as an XML file and generates a graph of RBC with new assignments in GraphML format.&lt;/p&gt;
 </description>
     </item>
     
@@ -93,13 +115,12 @@ program controlling an anti-lock braking system (ABS) of a car. In this project,
       <link>https://example.com/project/project/model-checking-of-a-device-driver-of-a-transmitter/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/project/model-checking-of-a-device-driver-of-a-transmitter/</guid>
-      <description>&lt;p&gt;This project was a part of formal methods course at KTH. We
-Make models in NuSMV of a transmitter and the device driver control
-ling the transmitter. We then express some properties in CTL and check whether the NuSMV model satisfies them. One example of such a check is to verify that the device
+      <description>&lt;p&gt;This project was a part of the formal methods course at KTH. We
+Make models in NuSMV of a transmitter and the device driver controlling the transmitter. We then express some properties in CTL and check whether the NuSMV model satisfies them. One example of such a check is to verify that the device
 driver does not configure the transmitter into an unknown state where
 the behavior of the transmitter is not specified. If the transmitter
 enters such a state, it could do anything, e.g. transmitting confidential
-data in memory. We check more than 10 properties in this project.&lt;/p&gt;
+data in memory. We checked more than 10 properties in this project.&lt;/p&gt;
 </description>
     </item>
     

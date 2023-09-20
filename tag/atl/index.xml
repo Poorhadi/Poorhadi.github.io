@@ -17,7 +17,7 @@
       <link>https://example.com/project/project/ebsysmlsec/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/project/ebsysmlsec/</guid>
-      <description>&lt;p&gt;EBSysMLSec is a translation tool that takes a SysML model as an input and generates the corresponding Event-B model. The tool is used only in the context of networked control system (NCS) i.e., the input must agree with a specifc style of modeling adopted for specifing a NCS using SysML, details could be found in papers [1,2].&lt;/p&gt;
+      <description>&lt;p&gt;EBSysMLSec is a translation tool that takes a SysML model as an input and generates the corresponding Event-B model. EBSysMLSec is used only in the context of networked control system (NCS) i.e., the input must agree with a specifc style of modeling adopted for specifing a NCS using SysML, details could be found in papers [1,2].&lt;/p&gt;
 &lt;p&gt;To develope EBSysMLSec, we use ATL- a model transformation language. ATL provides a way to genrate several target models from a sorce model. An ATL transformation program consists of several rules that specify how source model elements are matched with target model elements. The implemenation of EBSysMLSec contains four programs (.atl files). Each program takes the input SysML model and generates an Event-B component (either a Machine or a Context). All generated Event-B components form the output of EBSysMLSec.&lt;/p&gt;
 &lt;p&gt;Run:&lt;/p&gt;
 &lt;p&gt;Install Eclipse modeling tool.

@@ -17,9 +17,9 @@
       <link>https://example.com/project/project/rbc-id-block-assignment/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/project/rbc-id-block-assignment/</guid>
-      <description>&lt;p&gt;The RBC is a device used at ERTMS/ETCS signaling systems acting as a safety unit, which, using radio connection via GSM-R, to communicate with trains in a specifc area. RBCs within a region are netweoked and exchanged data to control the trains movement.&lt;/p&gt;
-&lt;p&gt;Trafikverket, Swedish Transport Administration, requires reassign (or assgining new) ID block of some of their RBCs such that no adjecent RBCs have identical IDs while minimizing the cost.&lt;/p&gt;
-&lt;p&gt;In this project, we formulate the problem as a variant of Graph coloring problem and develop an algorithm to generete the optimal ID block assignment to RBCs. The algorithm is developed in Python uisng Networkx. The implementation takes the current RBC network as an XML file and generate a graph of RBC with new assignments in GraphML format.&lt;/p&gt;
+      <description>&lt;p&gt;The RBC is a device used at ERTMS/ETCS signaling systems acting as a safety unit, which, using radio connection via GSM-R, to communicate with trains in a specific area. RBCs within a region are networked and exchange data to control the trains&amp;rsquo; movement.&lt;/p&gt;
+&lt;p&gt;Trafikverket, Swedish Transport Administration, requires to reassign (or assign new) ID blocks of some of their RBCs such that no adjacent RBCs have identical IDs while minimizing the cost.&lt;/p&gt;
+&lt;p&gt;In this project, we formulate the problem as a variant of the Graph coloring problem and develop an algorithm to generate the optimal ID block assignment to RBCs. The algorithm is developed in Python using Networkx. The implementation takes the current RBC network as an XML file and generates a graph of RBC with new assignments in GraphML format.&lt;/p&gt;
 </description>
     </item>
     
