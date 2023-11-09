@@ -2,32 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/talk/automated-integrated-analysis-of-safety-security-interactions-for-railway-systems/</loc>
+    <lastmod>2023-12-07T10:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/event-b/</loc>
+    <lastmod>2023-12-07T10:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/railway/</loc>
+    <lastmod>2023-12-07T10:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/event/</loc>
+    <lastmod>2023-12-07T10:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/safety/</loc>
+    <lastmod>2023-12-07T10:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/sysml/</loc>
+    <lastmod>2023-12-07T10:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2023-12-07T10:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://example.com/talk/automating-an-analysis-of-safety-security-interactions-for-railway-systems/</loc>
     <lastmod>2023-10-11T11:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/event-b/</loc>
-    <lastmod>2023-10-11T11:30:00+00:00</lastmod>
+    <loc>https://example.com/publication-type/1/</loc>
+    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/railway/</loc>
-    <lastmod>2023-10-11T11:30:00+00:00</lastmod>
+    <loc>https://example.com/tag/automated-tool-support/</loc>
+    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/</loc>
-    <lastmod>2023-10-11T11:30:00+00:00</lastmod>
+    <loc>https://example.com/publication/automating-an-analysis-of-safety-security-interactions-for-railway-systems/</loc>
+    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/safety/</loc>
-    <lastmod>2023-10-11T11:30:00+00:00</lastmod>
+    <loc>https://example.com/tag/cyberattacks/</loc>
+    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/sysml/</loc>
-    <lastmod>2023-10-11T11:30:00+00:00</lastmod>
+    <loc>https://example.com/tag/integrated-formal-modelling/</loc>
+    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2023-10-11T11:30:00+00:00</lastmod>
+    <loc>https://example.com/publication_types/</loc>
+    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/railway-networked-control-systems/</loc>
+    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/project/project/formal-modeling-of-moving-block-signaling-system/</loc>
@@ -74,10 +106,6 @@
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/1/</loc>
-    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://example.com/publication/analysing-the-impact-of-security-attacks-on-safety-using-sysml-and-event-b/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -91,10 +119,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/tag/integrated-approach/</loc>
-    <lastmod>2022-09-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/publication_types/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

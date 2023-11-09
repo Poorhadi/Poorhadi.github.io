@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyberattacks | Home</title>
+    <link>https://example.com/tag/cyberattacks/</link>
+      <atom:link href="https://example.com/tag/cyberattacks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cyberattacks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hud9e2f43ab6f21cec988f7b26ad197544_2176_512x512_fill_lanczos_center_3.png</url>
+      <title>Cyberattacks</title>
+      <link>https://example.com/tag/cyberattacks/</link>
+    </image>
+    
+    <item>
+      <title>Automating an Analysis of Safety-Security Interactions for Railway Systems</title>
+      <link>https://example.com/publication/automating-an-analysis-of-safety-security-interactions-for-railway-systems/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/automating-an-analysis-of-safety-security-interactions-for-railway-systems/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
