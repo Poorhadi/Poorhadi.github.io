@@ -258,7 +258,7 @@
     <loc>https://example.com/experience/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/personality/</loc>
+    <loc>https://example.com/info/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/skill/</loc>

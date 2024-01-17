@@ -290,7 +290,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Experience</title>
+      <title>Educations</title>
       <link>https://example.com/education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.com/education/</guid>
@@ -307,9 +307,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Personal Info</title>
-      <link>https://example.com/personality/</link>
+      <link>https://example.com/info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/personality/</guid>
+      <guid>https://example.com/info/</guid>
       <description></description>
     </item>
     
